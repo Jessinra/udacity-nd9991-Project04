@@ -1,4 +1,4 @@
-[![Jessinra](https://circleci.com/gh/Jessinra/udacity-nd9991-Project04.svg?style=svg)](.)
+[![CircleCI](https://circleci.com/gh/Jessinra/udacity-nd9991-Project04/tree/main.svg?style=svg)](https://circleci.com/gh/Jessinra/udacity-nd9991-Project04/tree/main)
 
 ## Project Overview
 
