@@ -26,6 +26,11 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ## Setup the Environment
 
 * Create a virtualenv and activate it
+```bash
+python3 -m venv ./devops
+source ./devops/bin/activate
+```
+
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
@@ -38,5 +43,26 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+* Run a bash script `run_kubernetes.sh` to create a Kubernetes cluster and run the docker image
+```bash
+ubuntu@ip-172-31-19-73:~/udacity-nd9991-Project04: ./run_kubernetes.sh
+```
+
+### Files:
+* `docker_out.txt`: sample output of running:
+```bash
+# on terminal 1
+ubuntu@ip-172-31-19-73:~/udacity-nd9991-Project04: ./run_docker.sh
+
+# on terminal 2
+ubuntu@ip-172-31-19-73:~/udacity-nd9991-Project04: ./make_prediction.sh
+```
+
+* `kubernetes_out.txt`: sample output of running:
+```bash
+# on terminal 1
+ubuntu@ip-172-31-19-73:~/udacity-nd9991-Project04: ./run_kubernetes.sh
+
+# on terminal 2
+ubuntu@ip-172-31-19-73:~/udacity-nd9991-Project04: ./make_prediction.sh
+```
